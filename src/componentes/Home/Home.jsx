@@ -1,13 +1,12 @@
-import CardDetail from "../CardDetail/CardDetail"
+import CardDetail from "../Carddetail/CardDetail";
 
-
-
-const Home=()=>{
-return(
+const Home = () => {
+  return (
     <>
-    <CardDetail/>
+      <div>
+        <CardDetail />
+      </div>
     </>
-    )
-
-}
-export default Home
+  );
+};
+export default Home;

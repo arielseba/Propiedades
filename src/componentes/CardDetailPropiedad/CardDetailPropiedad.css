@@ -1,12 +1,13 @@
 .container-details{
-height: 147px;
-width: 696px;
+height: 16vh;
+width: 135%;
 left: 0px;
 top: 0px;
 border-radius: 25px;
 background: #FFFFFF;
 box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
 border-radius: 25px;
+
 
 }
 .container-details-text{
@@ -18,8 +19,7 @@ border-radius: 25px;
     font-size: 20px;
     line-height: 23px;
     letter-spacing: -0.502564px;
-
-color: #000000;
+    color: #000000;
 
     }
 

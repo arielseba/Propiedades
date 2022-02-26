@@ -1,30 +1,24 @@
-import React, { useState } from 'react';
-import './App.css';
-import CardDetail from './componentes/CardDetail/CardDetail';
-import Footer from './componentes/Footer/Footer';
-import NavBar from './componentes/NavBar/NavBar';
-import {BrowserRouter,Route,Routes} from 'react-router-dom';
-import Home from './componentes/Home/Home';
+import "./App.css";
 
-
+import Footer from "./componentes/Footer/Footer";
+import NavBar from "./componentes/Navbar/NavBar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./componentes/Home/Home";
+import CardDetail from "./componentes/Carddetail/CardDetail";
 
 function App() {
-
   return (
-    
     <div className="App">
-     
-      <BrowserRouter >
-      <NavBar/>
+      <BrowserRouter>
+        <NavBar />
         <Routes>
-          <Route path="/"  element={<Home/>}/>
-          <Route path='/:category' element={<CardDetail/>}/>
-          <Route path="/:category/:name" element={<CardDetail/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/:category" element={<CardDetail />} />
+          <Route path="/:category/:name" element={<CardDetail />} />
         </Routes>
-      <Footer/>
+        <Footer />
       </BrowserRouter>
     </div>
- 
   );
 }
 

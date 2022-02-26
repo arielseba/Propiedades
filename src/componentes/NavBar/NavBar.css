@@ -37,10 +37,14 @@ li:hover{
 }
 
 .logo-img{
+    width: 10%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    
     margin-left: 17%;
+
 
     
 }

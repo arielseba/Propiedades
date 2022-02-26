@@ -1,65 +1,103 @@
-.container-footer{
+.container-footer {
     background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
     height: 50vh;
-    
+
 
 }
-.title{
+
+.title {
     font-family: DMSans;
     font-size: 42px;
     line-height: 49px;
     letter-spacing: -1.05538px;
     color: #FFFFFF;
     padding: 4%;
-    margin-left:12%;
-    
+    margin-left: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.title img {
+    height: 4vh;
+    margin-top: 1.2%;
+    margin-left: 14px;
 }
 
 
-.container-footer-top{
+.container-footer-top {
     display: flex;
     flex-direction: row;
     flex-direction: wrap;
     color: white;
-    border-bottom: solid 1px gray;
     justify-content: space-between;
     align-items: center;
 
-   
+
 }
-.container-footer-bottom{
+
+.container-footer-bottom {
     display: flex;
     flex-direction: row;
     color: white;
     justify-content: space-around;
     margin-left: 10%;
     margin-right: 15%;
-    }
-.container-footer-bottom-column{
+    margin-top: 3%;
+}
+
+.container-footer-bottom-column {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
+
     font-size: larger;
-    
+
 }
-.container-footer-bottom-column-p{
+
+.container-footer-bottom-column-p {
     font-size: small;
     color: gray;
     margin-right: 40%;
     margin-top: 5%;
 }
-.button-work{
+
+.button-work {
     width: 25%;
     height: 7vh;
     padding: 1%;
     margin-right: 5%;
 
-    
-    
+
+
 }
-.img-social{
+
+.img-social {
     margin-left: 20%;
     margin-top: 30%;
+
+}
+
+.logo-img-footer {
+
+    width: 120%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 14%;
+
+}
+
+.line-footer {
+    width: 65%;
+    border: solid 1px rgba(255, 255, 255, 1);
+    opacity: 0.1;
+    mix-blend-mode: normal;
+    display: flex;
+    margin-left: 16%;
+    margin-right: 50%;
+    padding-right: 50%;
 
 }
