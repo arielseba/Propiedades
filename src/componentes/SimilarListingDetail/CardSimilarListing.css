@@ -1,0 +1,74 @@
+
+.container-card-similar{
+   
+height: 325px;
+width: 336px;
+left: 0px;
+top: 0px;
+
+
+background: #FFFFFF;
+box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+border-radius: 25px; 
+
+background-size:contain;
+background-repeat: no-repeat;
+
+
+
+margin:3%;
+}
+.img-card-similar{
+    max-height: 20vh;
+    width: 100%;
+}
+
+.titulo-card-similar{
+width: 100%;
+margin-top: 8%;
+
+font-family: DMSans;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: -0.603077px;
+color: #000000;
+padding: 3% 70% 5% 10%;
+
+border-bottom: solid 1px gray;
+}
+
+.container-card-similar-details-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 7vh;
+    align-items: center;
+    margin-left: 8%;
+    
+    
+    }
+
+.container-card-similar-details-icons-detail{
+    border-right: solid 2px gray;
+    width: 100%;
+    margin-bottom: 3%;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 5%;
+}
+.container-card-similar-details-icons-detail-end{
+    
+    width: 100%;
+    margin-bottom: 3%;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 5%;
+
+}
+

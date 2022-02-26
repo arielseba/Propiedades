@@ -1,0 +1,53 @@
+.container-card-detail{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+
+.card-detail-img{
+    width:40%;
+    height: 70vh;
+    margin-left: 20%;
+    margin-top: 12%;
+    
+    border-radius: 0px 57px 0px 0px;
+}
+
+.card-detail-form{
+margin-left: 1%;
+margin-top: 12%;
+
+}
+.card-detail-propiedad{
+    width: 30%;
+    margin-left: 20%;
+    margin-top: 1%;
+
+}
+.card-detail-navbar{
+    position: absolute;
+    top:10%;
+    width: 100%;
+    height: 8vh;
+    background:linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: solid 1px gray;
+    font-family: DMSans;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.804102px;
+    color: #FFFFFF;
+       }
+.name{
+    margin-left: 20%;
+        }
+.cost{
+    margin-left: 48%;
+    
+    
+}

@@ -1,0 +1,58 @@
+.header{
+    margin: 0%;
+    position: fixed;
+    width: 100% ;
+    
+    
+
+}
+.NavBar{
+background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+color: azure;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+height: 10vh;
+}
+ol{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-left: 50%;
+}
+li{
+       list-style: none;
+       cursor: pointer;
+       margin: 2%;
+}
+li:hover{
+    color:rgb(158, 158, 158);
+}
+.logo-text{
+    margin-left: 10%;
+}
+
+.logo-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 17%;
+
+    
+}
+.links{
+    width: 50%;    
+    margin-right: 18%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.button-nav{
+    height: 8vh;
+    
+}
