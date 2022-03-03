@@ -1,10 +1,10 @@
-import CardDetailPropiedad from "../Carddetailpropiedad/CardDetailPropiedad";
+import CardDetailPropiedad from "../CardDetailPropiedad/CardDetailPropiedad";
 import CardFormulario from "../Cardform/CardFromulario";
 import "./CardDetail.css";
 import { useEffect } from "react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import SimilarListingContainer from "../Similarlistingcontainer/SimilarListingContainer";
+import SimilarListingContainer from "../SimilarListingContainer/SimilarListingContainer";
 
 const CardDetail = () => {
   const formatCurrency = (value) => {

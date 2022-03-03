@@ -1,4 +1,4 @@
-import CardDetail from "../Carddetail/CardDetail";
+import CardDetail from "../CardDetail/CardDetail";
 
 const Home = () => {
   return (

@@ -1,5 +1,5 @@
 import "./SimilarListingContainer.css";
-import CardSimilarListing from "../Similarlistingdetail/CardSimilarListing";
+import CardSimilarListing from "../SimilarListingDetail/CardSimilarListing";
 import { Fragment, useState } from "react";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";

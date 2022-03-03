@@ -1,4 +1,4 @@
-import ButtonWork from "../Buttonwork/ButtonWork";
+import ButtonWork from "../ButtonWork/ButtonWork";
 import "./Footer.css";
 
 const Footer = () => {

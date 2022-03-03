@@ -1,4 +1,4 @@
-import ButtonWork from "../Buttonwork/ButtonWork";
+import ButtonWork from "../ButtonWork/ButtonWork";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
 const NavBar = ({ props }) => {

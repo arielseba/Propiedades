@@ -1,10 +1,10 @@
 import "./App.css";
 
 import Footer from "./componentes/Footer/Footer";
-import NavBar from "./componentes/Navbar/NavBar";
+import NavBar from "./componentes/NavBar/NavBar"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./componentes/Home/Home";
-import CardDetail from "./componentes/Carddetail/CardDetail";
+import CardDetail from "./componentes/CardDetail/CardDetail";
 
 function App() {
   return (
